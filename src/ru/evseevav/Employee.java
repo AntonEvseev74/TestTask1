@@ -9,8 +9,6 @@ public class Employee {
     public Employee(long id, String vacancy) {
         this.id = id;
         this.vacancy = new Vacancy(vacancy);
-        // при создании объекта класса Vacancy передается параметр
-        // в самом классе Vacancy отсутствует необходимый конструктор, нужно создать
     }
     /* При необходимости создания пустого объекта можно добавить пустой конструктор класса */
     public Employee(){}
