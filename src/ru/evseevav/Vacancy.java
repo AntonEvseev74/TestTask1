@@ -9,9 +9,14 @@ public class Vacancy {
     Vacancy (String vacancy) {
         this.vacancy = vacancy;
     }
-    /* Добавленный код, конец. Переходим в класс Main и проверяем работу программы */
+    /* Добавленный код, конец. */
 
+    /* Исправляем код, начало */
     String getVacancy() {
-        return "engineer";
+        return vacancy;
+        // вместо того чтобы вернуть строку "engineer"
+        // нам необходимо вернуть строку полученную при создании объекта - tester, класса - Employee
+        // поэтому возвращаем - vacancy
     }
+    /* Исправляем код, конец */
 }
